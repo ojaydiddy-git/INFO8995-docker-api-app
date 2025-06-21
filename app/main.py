@@ -44,5 +44,9 @@ def get_user(user_id):
     else:
         return jsonify({'error': 'User not found'}), 404
 
+@app.route('/')
+def index():
+    return "Flask API is running!"
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
