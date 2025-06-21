@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# VSCode and IDE
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (for future frontend)
+dist/
+build/
