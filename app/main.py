@@ -46,7 +46,7 @@ def get_user(user_id):
 
 @app.route('/')
 def index():
-    return "Flask API is running!"
+    return "Flask API is running, INFO8995, Thank you professor!"
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
